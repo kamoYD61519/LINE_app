@@ -3,7 +3,7 @@ import requests
 # LINE公式アカウントのチャネルアクセストークン（Long-lived token）
 LINE_CHANNEL_ACCESS_TOKEN = 'YOUR_LINE_CHANNEL_ACCESS_TOKEN'
 
-# 送信先のユーザーID（WebhookやLINE Developerコンソールで取得）
+# 送信先のユーザーID（Webhookのreceived msgのsourceから取得）
 LINE_USER_ID = 'DESTINATION_USER_ID'
 
 def main():

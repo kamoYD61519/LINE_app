@@ -28,6 +28,7 @@ def send_line_message(reply_token, messages):
         print(f"メッセージ送信失敗: {response.status_code}, {response.text}")
 
 # Webhookエンドポイント
+# sample application
 @app.route("/webhook", methods=["POST"])
 def webhook():
     data = request.get_json()

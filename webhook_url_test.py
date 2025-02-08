@@ -3,6 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 @app.route("/webhook", methods=["POST"])  # POSTリクエストを許可
+# webhook 接続テスト
 def webhook():
     data = request.get_json()
     print("Received Webhook:", data)  # 受信データをログ出力
