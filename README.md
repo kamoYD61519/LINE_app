@@ -1,3 +1,5 @@
+#2025.2.11 (追記) ローカルサーバーからGCP上にwebhookサーバーを移行。公式アカウント(Yellow Dog)のデモ運用開始済み。
+
 LINE Messaging APIを利用したWebhookサーバープログラムのサンプルです。<br>
 LINE Messaging APIの前提となるLINE公式アカウントの登録や設定方法については、分かり易い資料やインターネット上のガイドが容易に見つかるので、ここでは割愛します。<br>
 上記登録・設定後、公式アカウントのYOUR_LINE_CHANNEL_ACCESS_TOKENを取得してください。<br>
